@@ -1,0 +1,12 @@
+  
+   <header>
+          <% logo = image_tag("rails.png", :alt => "Sample App", :class => "round") %>
+          <%= link_to logo, root_path %>
+         <nav class="round">
+          <ul>
+            <li><%= link_to "Inicio", root_path %></li>
+            <li><%= link_to "Ayuda", help_path %></li>
+            <li><%= link_to "Registrarse", '#' %></li>
+          </ul>
+         </nav>
+        </header>
